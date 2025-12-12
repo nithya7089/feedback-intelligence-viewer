@@ -1,0 +1,89 @@
+{
+  "feedback_id": "fb_003",
+  "clean_text": "I couldn’t login and the OTP never came. Also packaging was so poor it was leaking.",
+  "clean_text_confidence": 0.9,
+
+  "one_liner_summary": null,
+  "one_liner_summary_confidence": 0.0,
+
+  "feedback_language": "en",
+  "feedback_language_confidence": 1.0,
+
+  "reasons": [
+    {
+      "extracted_reason_text": "couldn’t login",
+      "reason_label": "login_failed",
+      "reason_label_confidence": 0.83,
+
+      "theme_label": "Account Access, Login & Onboarding",
+      "theme_confidence": 0.9,
+
+      "reason_sentiment_score": -0.7,
+      "reason_sentiment_score_confidence": 0.8,
+
+      "reason_emotion_scores": {
+        "anger": 0.4,
+        "frustration": 0.5,
+        "sadness": 0.2,
+        "joy": 0.0,
+        "sarcasm": 0.0,
+        "emotion_confidence": 0.8
+      },
+
+      "reason_intent": "Complaints",
+      "reason_intent_confidence": 0.9,
+
+      "reason_evidence_snippets": ["couldn’t login"],
+      "reason_evidence_snippets_confidence": 0.9,
+
+      "reason_suggested_action": null,
+
+      "entities": [
+        {
+          "extracted_entity_text": "login",
+          "canonical_entity_label": "login",
+          "entity_label_confidence": 0.8,
+          "entity_category": "feature",
+          "entity_category_confidence": 0.85,
+          "extraction_method": "model"
+        }
+      ]
+    },
+    {
+      "extracted_reason_text": "packaging was so poor it was leaking",
+      "reason_label": "poor_packaging_quality",
+      "reason_label_confidence": 0.87,
+      "extraction_method": "ner",
+
+      "theme_label": "Packaging & Product Handling",
+      "theme_confidence": 0.91,
+
+      "reason_sentiment_score": -0.8,
+      "reason_sentiment_score_confidence": 0.86,
+
+      "reason_emotion_scores": {
+        "anger": 0.4,
+        "frustration": 0.4,
+        "sadness": 0.1,
+        "joy": 0.0,
+        "sarcasm": 0.0,
+        "emotion_confidence": 0.85
+      },
+
+      "reason_intent": "Complaints",
+      "reason_intent_confidence": 0.9,
+
+      "reason_evidence_snippets": ["poor it was leaking"],
+      "reason_evidence_snippets_confidence": 0.85,
+
+      "reason_suggested_action": "Improve packaging standards",
+
+      "entities": []
+    }
+  ],
+
+  "provenance": {
+    "human_review_needed": false,
+    "trigger_reasons": []
+  }
+}
