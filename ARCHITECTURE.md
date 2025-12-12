@@ -12,38 +12,38 @@ No real backend processing or AI is done — the UI simply visualizes structured
 ---
 
 ## 2. Project Folder Structure
-#project: feedback-intelligence-viewer
+project: feedback-intelligence-viewer
 
-##structure:
-##pages:
- ##index.tsx: "main layout + sample selector"
- ##api:
- ##mock-feedback.ts: "serves selected or random mock JSON"
+structure:
+pages:
+index.tsx: "main layout + sample selector"
+ api:
+ mock-feedback.ts: "serves selected or random mock JSON"
 
-##components:
-  ##FeedbackDetailViewer.tsx: "clean text, summary, language, provenance"
-  #ReasonAccordion.tsx: "expandable reason details"
-  #EntityCard.tsx: "entity-level information"
-  #ReasonHeatmap.tsx: "theme-grouped sentiment heatmap"
+ components:
+  FeedbackDetailViewer.tsx: "clean text, summary, language, provenance"
+  ReasonAccordion.tsx: "expandable reason details"
+  EntityCard.tsx: "entity-level information"
+  ReasonHeatmap.tsx: "theme-grouped sentiment heatmap"
 
-#mocks:
-  #sample-1.json: "processed feedback sample #1"
-  #sample-2.json: "processed feedback sample #2"
-  #sample-3.json: "processed feedback sample #3"
-  #sample-4.json: "processed feedback sample #4"
-  #sample-5.json: "processed feedback sample #5"
+mocks:
+  sample-1.json: "processed feedback sample #1"
+  sample-2.json: "processed feedback sample #2"
+  sample-3.json: "processed feedback sample #3"
+  sample-4.json: "processed feedback sample #4"
+  sample-5.json: "processed feedback sample #5"
 
-#types:
-  #feedback.ts: "TypeScript schema for JSON model"
+types:
+  feedback.ts: "TypeScript schema for JSON model"
 
-#styles:
-  #globals.css: "global Tailwind styles"
+styles:
+  globals.css: "global Tailwind styles"
 
-#configs:
-  #tailwind.config.js: "Tailwind customization"
-  #next.config.js: "Next.js configuration"
-  #package.json: "project dependencies + scripts"
-  #ARCHITECTURE.md: "architecture documentation"
+configs:
+  tailwind.config.js: "Tailwind customization"
+  next.config.js: "Next.js configuration"
+  package.json: "project dependencies + scripts"
+  ARCHITECTURE.md: "architecture documentation"
 
 ---
 
