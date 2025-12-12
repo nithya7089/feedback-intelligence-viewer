@@ -14,14 +14,14 @@ No real backend processing or AI is done — the UI simply visualizes structured
 ## 2. Project Folder Structure
 #project: feedback-intelligence-viewer
 
-#structure:
-#pages:
- #index.tsx: "main layout + sample selector"
- #api:
- #mock-feedback.ts: "serves selected or random mock JSON"
+##structure:
+##pages:
+ ##index.tsx: "main layout + sample selector"
+ ##api:
+ ##mock-feedback.ts: "serves selected or random mock JSON"
 
-#components:
-  #FeedbackDetailViewer.tsx: "clean text, summary, language, provenance"
+##components:
+  ##FeedbackDetailViewer.tsx: "clean text, summary, language, provenance"
   #ReasonAccordion.tsx: "expandable reason details"
   #EntityCard.tsx: "entity-level information"
   #ReasonHeatmap.tsx: "theme-grouped sentiment heatmap"
@@ -145,6 +145,7 @@ It demonstrates:
 - error-safe rendering of nested feedback data  
 
 It is easy to extend and resembles real-world feedback intelligence dashboards.
+
 
 
 
